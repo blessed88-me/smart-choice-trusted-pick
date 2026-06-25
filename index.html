@@ -139,6 +139,34 @@ margin-top:40px;
     margin-bottom:20px;
     color:#555;
 }
+.deals{
+    padding:70px 20px;
+    background:#fff8ec;
+    text-align:center;
+}
+
+.deals h2{
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.deals-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.deal-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.deal-card:hover{
+    transform:translateY(-10px);
+}
 
 </style>
 
@@ -177,6 +205,49 @@ and hand-picked deals that help you save money.
 </a>
 
 </section>
+    <section class="deals">
+
+<h2>🔥 Today's Best Deals</h2>
+
+<div class="deals-grid">
+
+<div class="deal-card">
+<h3>🎧 Wireless Earbuds</h3>
+<p><del>$39.99</del></p>
+<p style="color:red;font-size:28px;font-weight:bold;">
+$19.99
+</p>
+<span style="background:#ff3b30;color:white;padding:5px 12px;border-radius:20px;">
+50% OFF
+</span>
+</div>
+
+<div class="deal-card">
+<h3>⌨️ Bluetooth Keyboard</h3>
+<p><del>$45.99</del></p>
+<p style="color:red;font-size:28px;font-weight:bold;">
+$27.99
+</p>
+<span style="background:#ff3b30;color:white;padding:5px 12px;border-radius:20px;">
+39% OFF
+</span>
+</div>
+
+<div class="deal-card">
+<h3>🔋 20,000mAh Power Bank</h3>
+<p><del>$59.99</del></p>
+<p style="color:red;font-size:28px;font-weight:bold;">
+$34.99
+</p>
+<span style="background:#ff3b30;color:white;padding:5px 12px;border-radius:20px;">
+42% OFF
+</span>
+</div>
+
+</div>
+
+</section>
+
   <section class="featured">
 
 <h2>🔥 Smart Choice Top Picks</h2>
